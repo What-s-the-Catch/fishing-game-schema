@@ -14,12 +14,12 @@
                 "url": "./PlayURJsonValidation/Schema/TreatmentFish.schema.json"
             },
             {
-                "fileMatch": ["*/MarineZones.json"],
-                "url": "./PlayURJsonValidation/Schema/MarineZones.schema.json"
+                "fileMatch": ["*/TreatmentZones.json"],
+                "url": "./PlayURJsonValidation/Schema/TreatmentZones.schema.json"
             },
             {
-                "fileMatch": ["*/Messages.json"],
-                "url": "./PlayURJsonValidation/Schema/Messages.schema.json"
+                "fileMatch": ["*/TreatmentMessages.json"],
+                "url": "./PlayURJsonValidation/Schema/TreatmentMessages.schema.json"
             }
         ]
     }

@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema",
-  "title": "TreatmentFish",
-  "description": "PlayUR Parameter TreatmentFish",
+  "title": "TreatmentFishList",
+  "description": "List of categories used for the Systemic Autoimmune Disease worksheet",
   "type": "object",
   "properties": {
     "Fish": {
