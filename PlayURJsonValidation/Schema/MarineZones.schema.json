@@ -27,6 +27,12 @@
           "Description": {
             "type": "string"
           },
+          "Colour": {
+            "type": "string"
+          },
+          "HideMapKey": {
+            "type": "boolean"
+          },
           "Points": {
             "type": "array",
             "title": "List of TreatmentZonePoint",
@@ -49,6 +55,9 @@
           },
           "Legal": {
             "type": "boolean"
+          },
+          "OtherBoats": {
+            "type": "integer"
           },
           "FishDensity": {
             "type": "integer",

@@ -5,6 +5,9 @@
   ],
   "Zones": [
     {
+      "Description": "Popular Spot",
+      "Colour":"yellow",
+      "HideMapKey": true,
       "Points": [
         {
           "x": 0,
@@ -41,6 +44,7 @@
       ]
     },
     {
+      "Colour":"#6603fc",
       "Points": [
         {
           "x": 3,
@@ -52,11 +56,12 @@
         }
       ],
       "Legal": false,
+      "OtherBoats": 10,
       "FishDensity": 100,
       "Fish": [
         {
           "Type": 2,
-          "Chance": 0.5
+          "Chance": 1
         },
         {
           "Type": 3,
