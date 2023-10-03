@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema",
-  "title": "TreatmentMarineZones",
-  "description": "List of categories used for the Systemic Autoimmune Disease worksheet",
+  "title": "MarineZones",
+  "description": "PlayUR Parameter MarineZones",
   "type": "object",
   "properties": {
     "Resolution": {
