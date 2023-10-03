@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Messages",
+  "description": "PlayUR Parameter Messages",
+  "type": "object",
+  "properties": {
+    "GameStart1": {
+      "type": "string"
+    },
+    "GameStart2": {
+      "type": "string"
+    },
+    "ReleaseFish": {
+      "type": "string"
+    },
+    "EnterZone": {
+      "type": "string"
+    },
+    "LeaveZone": {
+      "type": "string"
+    }
+  },
+  "required": [],
+  "additionalProperties": false
+}

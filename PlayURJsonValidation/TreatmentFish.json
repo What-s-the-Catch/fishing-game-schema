@@ -1,0 +1,25 @@
+{
+  "Fish": [
+    {
+      "FishType": 1,
+      "SizeMin": 100,
+      "SizeMax": 350,
+      "MinBagSize": 0,
+      "BagLimit": 2
+    },
+    {
+      "FishType": 2,
+      "SizeMin": 20,
+      "SizeMax": 100,
+      "MinBagSize": 32,
+      "BagLimit": 20
+    },
+    {
+      "FishType": 3,
+      "SizeMin": 20,
+      "SizeMax": 140,
+      "MinBagSize": 30,
+      "BagLimit": 5
+    }
+  ]
+}

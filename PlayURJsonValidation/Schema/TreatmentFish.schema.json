@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "TreatmentFish",
+  "description": "PlayUR Parameter TreatmentFish",
+  "type": "object",
+  "properties": {
+    "Fish": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "title": "TreatmentFish",
+        "properties": {
+          "FishType": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "SizeMin": {
+            "type": "integer"
+          },
+          "SizeMax": {
+            "type": "integer"
+          },
+          "MinBagSize": {
+            "type": "integer"
+          },
+          "BagLimit": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "FishType",
+          "SizeMin",
+          "SizeMax"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["Fish"],
+  "additionalProperties": false
+}

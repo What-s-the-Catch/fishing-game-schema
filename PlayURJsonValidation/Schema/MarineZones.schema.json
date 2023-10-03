@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "MarineZones",
+  "description": "PlayUR Parameter MarineZones",
+  "type": "object",
+  "properties": {
+    "Resolution": {
+      "title": "Resolution",
+      "description": "Resolution of marine zone grid, item 0=x, 1=y",
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "additionalItems": false,
+      "additionalProperties": false
+    },
+    "Zones": {
+      "title": "List of TreatmentZone",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "title": "TreatmentZone",
+        "properties": {
+          "Description": {
+            "type": "string"
+          },
+          "Points": {
+            "type": "array",
+            "title": "List of TreatmentZonePoint",
+            "items": {
+              "type": "object",
+              "title": "TreatmentZonePoint",
+              "properties": {
+                "x": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "y": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": ["x", "y"],
+              "additionalProperties": false
+            }
+          },
+          "Legal": {
+            "type": "boolean"
+          },
+          "FishDensity": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "Fish": {
+            "type": "array",
+            "description": "List of TreatmentZoneFish",
+            "items": {
+              "type": "object",
+              "properties": {
+                "Type": {
+                  "type": "integer"
+                },
+                "Chance": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                }
+              },
+              "required": ["Type", "Chance"],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": ["Points", "Legal", "FishDensity"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["Zones"],
+  "additionalProperties": false
+}

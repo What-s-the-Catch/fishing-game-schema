@@ -1,0 +1,26 @@
+{
+	"folders": [
+        {
+            "path": "./PlayURJsonValidation"
+        }
+    ],
+    "settings": {
+        "files.exclude": {
+            "**/.vs": true
+        },
+        "json.schemas": [
+            {
+                "fileMatch": ["*/TreatmentFish.json"],
+                "url": "./PlayURJsonValidation/Schema/TreatmentFish.schema.json"
+            },
+            {
+                "fileMatch": ["*/MarineZones.json"],
+                "url": "./PlayURJsonValidation/Schema/MarineZones.schema.json"
+            },
+            {
+                "fileMatch": ["*/Messages.json"],
+                "url": "./PlayURJsonValidation/Schema/Messages.schema.json"
+            }
+        ]
+    }
+}
