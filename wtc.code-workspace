@@ -11,15 +11,15 @@
         "json.schemas": [
             {
                 "fileMatch": ["*/TreatmentFish.json"],
-                "url": "./PlayURJsonValidation/Schema/TreatmentFish.schema.json"
+                "url": "https://raw.githubusercontent.com/What-s-the-Catch/fishing-game-schema/main/PlayURJsonValidation/Schema/TreatmentFish.schema.json"
             },
             {
-                "fileMatch": ["*/TreatmentZones.json"],
-                "url": "./PlayURJsonValidation/Schema/TreatmentZones.schema.json"
+                "fileMatch": ["*/MarineZones.json"],
+                "url": "https://raw.githubusercontent.com/What-s-the-Catch/fishing-game-schema/main/PlayURJsonValidation/Schema/MarineZones.schema.json"
             },
             {
-                "fileMatch": ["*/TreatmentMessages.json"],
-                "url": "./PlayURJsonValidation/Schema/TreatmentMessages.schema.json"
+                "fileMatch": ["*/Messages.json"],
+                "url": "https://raw.githubusercontent.com/What-s-the-Catch/fishing-game-schema/main/PlayURJsonValidation/Schema/Messages.schema.json"
             }
         ]
     }
