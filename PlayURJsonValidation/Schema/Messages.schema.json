@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema",
-  "title": "Messages",
-  "description": "PlayUR Parameter Messages",
+  "title": "TreatmentMessages",
+  "description": "List of categories used for the Systemic Autoimmune Disease worksheet",
   "type": "object",
   "properties": {
     "GameStart1": {
