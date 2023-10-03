@@ -11,7 +11,8 @@
       "minItems": 2,
       "maxItems": 2,
       "items": {
-        "type": "integer"
+        "type": "integer",
+        "minimum": 1
       },
       "additionalItems": false,
       "additionalProperties": false

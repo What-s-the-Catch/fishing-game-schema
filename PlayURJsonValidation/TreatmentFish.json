@@ -10,7 +10,7 @@
     {
       "FishType": 2,
       "SizeMin": 20,
-      "SizeMax": 130,
+      "SizeMax": 100,
       "MinBagSize": 32,
       "BagLimit": 20
     },
