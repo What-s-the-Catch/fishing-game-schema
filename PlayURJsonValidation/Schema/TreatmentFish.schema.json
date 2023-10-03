@@ -20,8 +20,9 @@
           "SizeMax": {
             "type": "integer"
           },
-          "MinBagSize": {
-            "type": "integer"
+          "MinLegalSize": {
+            "type": "integer",
+            "minimum": 0
           },
           "BagLimit": {
             "type": "integer"
