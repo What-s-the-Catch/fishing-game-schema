@@ -15,7 +15,7 @@
             "minimum": 1
           },
           "SizeMin": {
-            "type": "integer"
+            "type": "string"
           },
           "SizeMax": {
             "type": "integer"
