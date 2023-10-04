@@ -31,7 +31,7 @@
             "type": "string"
           },
           "HideMapKey": {
-            "type": "integer"
+            "type": "boolean"
           },
           "Points": {
             "type": "array",
