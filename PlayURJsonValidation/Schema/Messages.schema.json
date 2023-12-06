@@ -10,13 +10,13 @@
     "GameStart2": {
       "type": "string"
     },
-    "ReleaseFish": {
+    "ReleaseIllegalFish": {
       "type": "string"
     },
-    "EnterZone": {
+    "EnterIllegalZone": {
       "type": "string"
     },
-    "LeaveZone": {
+    "ExitIllegalZone": {
       "type": "string"
     }
   },
