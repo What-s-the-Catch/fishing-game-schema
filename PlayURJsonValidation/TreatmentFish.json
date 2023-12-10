@@ -2,6 +2,7 @@
   "Fish": [
     {
       "FishType": 1,
+      "Name": "Tuna",
       "SizeMin": 100,
       "SizeMax": 350,
       "MinLegalSize": 0,
@@ -9,6 +10,7 @@
     },
     {
       "FishType": 2,
+      "Name": "Flathead",
       "SizeMin": 20,
       "SizeMax": 100,
       "MinLegalSize": 32,
@@ -16,6 +18,7 @@
     },
     {
       "FishType": 3,
+      "Name": "Snapper",
       "SizeMin": 20,
       "SizeMax": 140,
       "MinLegalSize": 30,

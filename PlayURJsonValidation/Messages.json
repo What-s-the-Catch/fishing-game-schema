@@ -1,7 +1,7 @@
 {
 	"GameStart1": "Good luck with your fishing today!",
-	"GameStart2": "Make sure you try and catch lots of big tuna!",
-	"ReleaseFish": "Good choice to release it!",
-	"EnterZone": "You entered Marine Zone!",
-	"LeaveZone": "You left Marine Zone!"
+	"GameStart2": "",
+	"ReleaseIllegalFish": "Good job on letting that fish go!",
+	"EnterIllegalZone": "Fishing is not permitted in the zone you have entered.",
+	"ExitIllegalZone": "You have returned to an authorised fishing area."
 }
