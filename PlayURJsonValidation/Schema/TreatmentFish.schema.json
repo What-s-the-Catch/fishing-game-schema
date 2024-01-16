@@ -29,6 +29,9 @@
           },
           "BagLimit": {
             "type": "integer"
+          },
+          "ScoreMultiplier": {
+            "type": "number"
           }
         },
         "required": [
