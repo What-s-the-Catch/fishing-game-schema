@@ -1,7 +1,25 @@
 {
-	"GameStart1": "Good luck with your fishing today!",
-	"GameStart2": "",
-	"ReleaseIllegalFish": "Good job on letting that fish go!",
-	"EnterIllegalZone": "Fishing is not permitted in the zone you have entered.",
-	"ExitIllegalZone": "You have returned to an authorised fishing area."
+	"Messages": [
+	  {
+		"Tag": "ReleaseFish",
+		"Text": ""
+	  },
+	  {
+		"Tag": "EnterIllegalZone",
+		"Text": ""
+	  },
+	  {
+		"Tag": "ExitIllegalZone",
+		"Text": ""
+	  },
+	  {
+		"Tag": "FishedOut",
+		"Text": ""
+	  },
+	  {
+		"Tag": "Tutorial",
+		"Text": ""
+	  }
+	]
 }
+  

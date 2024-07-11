@@ -4,22 +4,26 @@
   "description": "PlayUR Parameter Messages",
   "type": "object",
   "properties": {
-    "GameStart1": {
-      "type": "string"
-    },
-    "GameStart2": {
-      "type": "string"
-    },
-    "ReleaseIllegalFish": {
-      "type": "string"
-    },
-    "EnterIllegalZone": {
-      "type": "string"
-    },
-    "ExitIllegalZone": {
-      "type": "string"
+    "TreatmentMessages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "title": "Messages",
+        "properties": {
+          "Tag": {
+            "type": "string"
+          },
+          "Text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Tag"
+        ],
+        "additionalProperties": false
+      }
     }
   },
-  "required": [],
+  "required": ["TreatmentMessages"],
   "additionalProperties": false
 }
