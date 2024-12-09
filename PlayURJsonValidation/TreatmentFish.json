@@ -12,7 +12,7 @@
       "FishType": 2,
       "Name": "Flathead",
       "SizeMin": 15,
-      "SizeMax": 65,
+      "SizeMax": 66,
       "MinLegalSize": 32,
       "BagLimit": 20
     },

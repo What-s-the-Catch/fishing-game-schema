@@ -1,29 +1,41 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema",
   "title": "Messages",
-  "description": "PlayUR Parameter Messages",
+  "description": "PlayUR Parameter Messages updated",
   "type": "object",
   "properties": {
-    "TreatmentMessages": {
+    "ReleaseFish" : {
+      "type": "string"
+    },
+    "EnterIllegalZone" : {
+      "type": "string"
+    },
+    "ExitIllegalZone" : {
+      "type": "string"
+    },
+    "FishedOut" : {
+      "type": "string"
+    },
+    "TutorialMessages": {
       "type": "array",
       "items": {
         "type": "object",
         "title": "Messages",
         "properties": {
-          "Tag": {
+          "Text": {
             "type": "string"
           },
-          "Text": {
+          "Image": {
             "type": "string"
           }
         },
         "required": [
-          "Tag"
+          "Text"
         ],
         "additionalProperties": false
       }
     }
   },
-  "required": ["TreatmentMessages"],
+  "required": ["ReleaseFish", "EnterIllegalZone", "ExitIllegalZone", "FishedOut", "TutorialMessages"],
   "additionalProperties": false
 }

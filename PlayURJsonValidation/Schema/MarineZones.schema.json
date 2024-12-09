@@ -17,6 +17,19 @@
       "additionalItems": false,
       "additionalProperties": false
     },
+    "StartingPosition": {
+      "title": "Resolution",
+      "description": "Position of the boat at the start, in unity coordinates, item 0=x, 1=y",
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "additionalItems": false,
+      "additionalProperties": false
+    },
     "Zones": {
       "title": "List of TreatmentZone",
       "type": "array",

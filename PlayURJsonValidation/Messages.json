@@ -1,25 +1,12 @@
 {
-	"Messages": [
+	"ReleaseFish" : "",
+	"EnterIllegalZone" : "",
+	"ExitIllegalZone" : "",
+	"FishedOut" : "",
+	"TutorialMessages": [
 	  {
-		"Tag": "ReleaseFish",
-		"Text": ""
-	  },
-	  {
-		"Tag": "EnterIllegalZone",
-		"Text": ""
-	  },
-	  {
-		"Tag": "ExitIllegalZone",
-		"Text": ""
-	  },
-	  {
-		"Tag": "FishedOut",
-		"Text": ""
-	  },
-	  {
-		"Tag": "Tutorial",
-		"Text": ""
+		"Text": "",
+		"Image": ""
 	  }
 	]
-}
-  
+  }
